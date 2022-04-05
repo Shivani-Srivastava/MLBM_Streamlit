@@ -16,18 +16,8 @@ st.write('Peter and Elizabeth took a taxi to attend the night party in the city.
 
 sentence = st.text_area('Enter the text to be summarized.', value = 'Peter and Elizabeth took a taxi to attend the night party in the city. While in the party, Elizabeth collapsed and was rushed to the hospital.')
 
-#k = st.slider('Number of sentencest to generate', 1, 5)
-
-
-
 output0 = summarizer(sentence)
 
-#potential_mask_fills = []
-
-#for i in range(len(output0)):
-	#potential_mask_fills.append(output0[i]['generated_text'])
-
-#st.write(qn)
 st.write(output0['summary_text'])
 
 
