@@ -18,6 +18,6 @@ sentence = st.text_area('Enter the text to be summarized.', value = 'Peter and E
 
 output0 = summarizer(sentence)
 
-st.write(output0['summary_text'])
+st.write(output0[0]['summary_text'])
 
 
