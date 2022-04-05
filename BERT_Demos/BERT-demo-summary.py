@@ -27,7 +27,7 @@ output0 = summarizer(sentence)
 #for i in range(len(output0)):
 	#potential_mask_fills.append(output0[i]['generated_text'])
 
-st.write(qn)
+#st.write(qn)
 st.write(output0['summary_text'])
 
 
