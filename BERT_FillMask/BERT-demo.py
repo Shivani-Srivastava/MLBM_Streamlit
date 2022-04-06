@@ -2,7 +2,7 @@ import streamlit as st
 
 from transformers import pipeline
 
-unmasker = pipeline("fill-mask",model='EleutherAI/gpt-neo-1.3B')
+unmasker = pipeline("fill-mask")
 
 #col2, col3 = st.columns([6,1])
 
