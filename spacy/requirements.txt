@@ -1,6 +1,6 @@
 streamlit == 1.11.1
 spacy-streamlit == 1.0.4
 pandas == 1.4.3
-spacy = 3.4.1
-nltk = 3.7
+spacy == 3.4.1
+nltk == 3.7
 protobuf==3.20.1
