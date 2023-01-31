@@ -1,0 +1,7 @@
+streamlit
+spacy_streamlit
+pandas
+time
+spacy
+nltk
+base64
